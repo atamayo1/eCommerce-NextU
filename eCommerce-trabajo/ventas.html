@@ -28,7 +28,7 @@ window.onload = function(){
 			//
 			linea(149,80,150,360);
 			linea(120,340,750,340);
-			
+
 			//Lineas verticales
 			for(i=0; i<4; i++){
 				linea(120,115+(55*i),150,115+(55*i));
@@ -52,16 +52,16 @@ window.onload = function(){
 			//Primer trimestre
 			ctx.fillRect(150,95,3000/18,40);
 			//Segundo trimestre
-			
+			ctx.fillRect(150,150,5000/18,40);
 			//Tercer trimestre
-			
+			ctx.fillRect(150,205,4000/18,40);
 			//Cuarto trimestres
-			 
+			ctx.fillRect(150,260,7000/18,40);
 			//
 		} else {
 			alert("Error al crear el contexto");
 		}
-	}	
+	}
 }
 function linea(x1, y1, x2,y2){
 	ctx.beginPath();
@@ -88,7 +88,7 @@ function linea(x1, y1, x2,y2){
                 <img class="imagen" src="img/compania01.png" width="183" height="30" alt="compañia 1" />
                 <img class="imagen" src="img/compania02.png" width="72" height="30" alt="compañia 2" />
                 <a class="texto">OFERTAS ESPECIALES</a>
-           	</div>  
+           	</div>
             <div class="bolsa">
                 <div class="titulo">Compras</div>
                 <div class="imagen">
@@ -96,7 +96,7 @@ function linea(x1, y1, x2,y2){
                     <div class="texto">Finalizar Compra</div>
                </div>
            	</div>
-            <div class="telefonica"></div> 
+            <div class="telefonica"></div>
     	</div>
 	<div class="encabezado03">
     		<div class="Menu">
