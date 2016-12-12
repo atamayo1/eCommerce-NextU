@@ -27,8 +27,8 @@ COMENTARIO (co)
     }
 	#av-texto p{ text-align:justify; padding:.5em;}
 	#co-titulo{
-		background:gray;
-		color:black;
+		background:blue;
+		color:white;
 	}
 	#co-caja{
 		width:90%;
@@ -46,8 +46,8 @@ COMENTARIO (co)
     }
 	#av-texto p{ text-align:justify; padding:0;}
 	#co-titulo{
-		background:gray;
-		color:black;
+		background:green;
+		color:yellow;
 	}
 	#co-caja{
 		width:90%;
